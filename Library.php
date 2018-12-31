@@ -18,7 +18,7 @@
  */
 
 
-namespace PumaStudios\Library;
+namespace PumaStudios\WpLibrary;
 
 /**
  * Class Library
