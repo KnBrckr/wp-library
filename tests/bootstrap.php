@@ -1,10 +1,14 @@
 <?php
 /**
  * PHPUnit bootstrap file
- *
- * @package Aad_Doc_Manager
  */
 
+// Setup auto-loader
+
+$autoloader_path = dirname(__DIR__) . "/vendor/autoload.php";
+require_once $autoloader_path;
+
+// Setup WP environment
 $_tests_dir = getenv('WP_TESTS_DIR');
 
 if (!$_tests_dir) {
